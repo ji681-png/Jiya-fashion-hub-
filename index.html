@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,52 +7,83 @@
 
 <body>
 
-<header>
-<h1>Jiya Fashion Hub 💖</h1>
-<p>Trendy Fashion Store 👗</p>
-</header>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="kurti.html">Kurti</a>
-<a href="saree.html">Saree</a>
-<a href="suit.html">Suit</a>
-<a href="top.html">Top</a>
-<a href="coord.html">Co-ord</a>
-<a href="bag.html">Bag</a>
-<a href="tshirt.html">T-Shirt</a>
-</nav>
-
-<div class="hero">
-🙏 Namaste Welcome to Jiya Fashion Hub 💖
+<!-- TOP BAR -->
+<div class="topbar">
+<h2>Jiya Fashion Hub 💖</h2>
 </div>
 
+<!-- SEARCH BAR -->
+<div class="search">
+<input type="text" placeholder="Search for products">
+</div>
+
+<!-- CATEGORY -->
+<div class="category">
+
+<div class="cat">
+<img src="kurti.jpg">
+<p>Kurti</p>
+</div>
+
+<div class="cat">
+<img src="saree.jpg">
+<p>Saree</p>
+</div>
+
+<div class="cat">
+<img src="suit.jpg">
+<p>Suit</p>
+</div>
+
+<div class="cat">
+<img src="bag.jpg">
+<p>Bag</p>
+</div>
+
+</div>
+
+<!-- SLIDER -->
+<div class="slider">
+<img id="slide" src="banner1.jpg">
+</div>
+
+<!-- PRODUCTS -->
 <div class="products">
 
 <div class="card">
-<h3>Kurti</h3>
-<a href="kurti.html"><button>View</button></a>
+<img src="kurti.jpg">
+<h3>Designer Kurti</h3>
+<p>₹999</p>
+<a href="https://wa.me/918736095356?text=I%20want%20this%20product">
+<button>Order</button>
+</a>
 </div>
 
 <div class="card">
-<h3>Saree</h3>
-<a href="saree.html"><button>View</button></a>
-</div>
-
-<div class="card">
-<h3>Suit</h3>
-<a href="suit.html"><button>View</button></a>
+<img src="saree.jpg">
+<h3>Party Saree</h3>
+<p>₹1499</p>
+<button>Order</button>
 </div>
 
 </div>
 
-<div class="footer">
-<p>📍 Vrindavan Yojna, Lucknow - 226014</p>
-<p>📞 8736095356</p>
-<p>🚚 COD Available</p>
+<!-- BOTTOM NAV -->
+<div class="bottom">
+<p>🏠 Home</p>
+<p>📦 Orders</p>
+<p>🛒 Cart</p>
+<p>👤 Account</p>
 </div>
 
-<a href="https://wa.me/918736095356" class="whatsapp">💬</a>
+<script>
+let images=["banner1.jpg","banner2.jpg","banner3.jpg"];
+let i=0;
+setInterval(()=>{
+i=(i+1)%images.length;
+document.getElementById("slide").src=images[i];
+},2000);
+</script>
 
 </body>
 </html>
