@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,83 +8,79 @@
 
 <body>
 
-<!-- TOP BAR -->
-<div class="topbar">
-<h2>Jiya Fashion Hub 💖</h2>
-</div>
+<header>
+<h1>🌸 Jiya Fashion Hub 🌸</h1>
+<p>✨ Trendy Girls Fashion Store ✨</p>
+</header>
 
-<!-- SEARCH BAR -->
-<div class="search">
-<input type="text" placeholder="Search for products">
-</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="kurti.html">Kurti</a>
+<a href="saree.html">Saree</a>
+<a href="suit.html">Suit</a>
+<a href="top.html">Top</a>
+<a href="coord.html">Co-ord</a>
+<a href="bag.html">Bag</a>
+<a href="tshirt.html">T-shirt</a>
+</nav>
 
-<!-- CATEGORY -->
-<div class="category">
+<h2 class="welcome">🙏 Namaste Welcome 💖</h2>
 
-<div class="cat">
-<img src="kurti.jpg">
-<p>Kurti</p>
-</div>
-
-<div class="cat">
-<img src="saree.jpg">
-<p>Saree</p>
-</div>
-
-<div class="cat">
-<img src="suit.jpg">
-<p>Suit</p>
-</div>
-
-<div class="cat">
-<img src="bag.jpg">
-<p>Bag</p>
-</div>
-
-</div>
-
-<!-- SLIDER -->
-<div class="slider">
-<img id="slide" src="banner1.jpg">
-</div>
-
-<!-- PRODUCTS -->
-<div class="products">
+<div class="container">
 
 <div class="card">
-<img src="kurti.jpg">
-<h3>Designer Kurti</h3>
-<p>₹999</p>
-<a href="https://wa.me/918736095356?text=I%20want%20this%20product">
-<button>Order</button>
-</a>
+<h3>Kurti Collection</h3>
+<a href="kurti.html" class="btn">View</a>
 </div>
 
 <div class="card">
-<img src="saree.jpg">
-<h3>Party Saree</h3>
-<p>₹1499</p>
-<button>Order</button>
+<h3>Saree Collection</h3>
+<a href="saree.html" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>Suit Collection</h3>
+<a href="suit.html" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>Top Collection</h3>
+<a href="top.html" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>Co-ord Set</h3>
+<a href="coord.html" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>Bag Collection</h3>
+<a href="bag.html" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>T-shirt</h3>
+<a href="tshirt.html" class="btn">View</a>
 </div>
 
 </div>
 
-<!-- BOTTOM NAV -->
-<div class="bottom">
-<p>🏠 Home</p>
-<p>📦 Orders</p>
-<p>🛒 Cart</p>
-<p>👤 Account</p>
+<footer>
+<p>📍 Vrindavan Yojna, Lucknow (226014)</p>
+<p>📞 8736095356</p>
+
+<div class="social">
+<a href="https://wa.me/918736095356">WhatsApp</a> |
+<a href="#">Instagram</a> |
+<a href="#">Amazon</a> |
+<a href="#">Flipkart</a> |
+<a href="#">Meesho</a>
 </div>
 
-<script>
-let images=["banner1.jpg","banner2.jpg","banner3.jpg"];
-let i=0;
-setInterval(()=>{
-i=(i+1)%images.length;
-document.getElementById("slide").src=images[i];
-},2000);
-</script>
+<p>🚚 Cash on Delivery Available</p>
+</footer>
+
+<a href="https://wa.me/918736095356" class="whatsapp">💬</a>
 
 </body>
 </html>
