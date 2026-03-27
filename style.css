@@ -1,8 +1,7 @@
-
 body{
+font-family: Arial;
 margin:0;
-font-family:Arial;
-background:linear-gradient(to right,#fff0f5,#ffe6f2);
+background:#fff0f5;
 }
 
 header{
@@ -15,7 +14,7 @@ padding:20px;
 nav{
 background:#ff69b4;
 text-align:center;
-padding:12px;
+padding:10px;
 }
 
 nav a{
@@ -23,21 +22,18 @@ color:white;
 margin:10px;
 text-decoration:none;
 font-weight:bold;
-font-size:16px;
 }
 
 nav a:hover{
 color:yellow;
 }
 
-.hero{
+.welcome{
 text-align:center;
-padding:40px;
 color:#ff1493;
-font-size:20px;
 }
 
-.products{
+.container{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
@@ -46,11 +42,11 @@ justify-content:center;
 .card{
 background:white;
 margin:15px;
-padding:15px;
-width:230px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
+padding:20px;
+width:200px;
 text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px gray;
 transition:0.3s;
 }
 
@@ -58,37 +54,21 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-.card img{
-width:100%;
-border-radius:10px;
-}
-
-button{
+.btn{
 background:#ff1493;
 color:white;
-border:none;
 padding:10px;
+text-decoration:none;
 border-radius:20px;
-cursor:pointer;
+display:inline-block;
 }
 
-button:hover{
-background:#ff69b4;
-}
-
-.footer{
+footer{
 background:#ff1493;
 color:white;
 text-align:center;
 padding:20px;
 margin-top:20px;
-}
-
-.social a{
-margin:8px;
-color:white;
-text-decoration:none;
-font-weight:bold;
 }
 
 .whatsapp{
